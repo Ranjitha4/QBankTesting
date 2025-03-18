@@ -1,0 +1,126 @@
+Test Case Requirements for qBank Login Testing
+
+The following test case requirements are designed to ensure the login functionality works seamlessly across different scenarios. 
+These include positive and negative tests, validation of the user interface (UI), security checks, and validation of error handling mechanisms.
+
+1. Valid Login Test Case
+Objective: To verify that a valid user can successfully log in using correct credentials.
+
+Preconditions:
+The user must have a valid account with a registered username and password.
+The user is on the login page.
+
+Test Steps:
+Open https://qbank.accelq.com/
+Enter the valid username in the "Username" field.
+Enter the valid password in the "Password" field.
+Click the Login button.
+
+Expected Result:
+The user is successfully logged in and redirected to the homepage or dashboard.
+The user should see a personalized greeting or access to their account-related features.
+
+2. Invalid Login - Incorrect Username
+Objective: To verify that the user cannot log in with an incorrect username.
+
+Preconditions:
+The user is on the login page.
+
+Test Steps:
+Open https://qbank.accelq.com/
+Enter an incorrect username in the "Username" field.
+Enter a valid password in the "Password" field.
+Click the Login button.
+
+Expected Result:
+The system should display an error message like:
+"Invalid username or password."
+The user should not be logged in.
+
+3. Invalid Login - Incorrect Password
+Objective: To verify that the user cannot log in with an incorrect password.
+
+Preconditions:
+The user is on the login page.
+
+Test Steps:
+Open https://qbank.accelq.com/
+Enter a valid username in the "Username" field.
+Enter an incorrect password in the "Password" field.
+Click the Login button.
+
+Expected Result:
+The system should display an error message like:
+"Invalid username or password."
+The user should not be logged in.
+
+4. Empty Fields Validation
+Objective: To verify that the system does not allow login when either the username or password field is empty.
+
+Preconditions:
+The user is on the login page.
+
+Test Steps:
+Open https://qbank.accelq.com/
+Leave the "Username" and/or "Password" field empty.
+Click the Login button.
+
+Expected Result:
+The system should prompt the user to fill in both the username and password.
+A message like: "Please fill out this field" should be displayed.
+
+5. Password Masking
+Objective: To verify that the password field properly masks the entered password.
+
+Preconditions:
+The user is on the login page.
+
+Test Steps:
+Open https://qbank.accelq.com/
+Enter a password in the "Password" field.
+
+Expected Result:
+The password characters should be masked (displayed as asterisks or dots) to ensure security.
+
+6. SQL Injection Test
+Objective: To verify that the login form is not vulnerable to SQL injection.
+
+Preconditions:
+The user is on the login page.
+
+Test Steps:
+Open https://qbank.accelq.com/
+In the "Username" field, enter the string: ' OR 1=1 --.
+Enter any value in the "Password" field (e.g., "test").
+Click the Login button.
+
+Expected Result:
+The login attempt should fail.
+No unauthorized access should be granted.
+The system should display an error message indicating invalid credentials.
+
+7. Login UI Responsiveness
+Objective: To verify that the login page is responsive and works on various screen sizes.
+
+Preconditions:
+The user is on the login page.
+
+Test Steps:
+Open https://qbank.accelq.com/ in different screen sizes (desktop, tablet, mobile).
+Observe the alignment and visibility of the form fields, buttons, and error messages.
+
+Expected Result:
+The login form should be properly aligned and visible without any elements being cut off or misaligned.
+The error message should also be visible and properly displayed on all screen sizes.
+
+
+
+
+
+
+
+
+
+
+
+

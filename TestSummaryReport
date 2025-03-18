@@ -1,0 +1,33 @@
+Final Report for qBank Login Testing
+
+Test Summary Report
+Date: 17th March, 2025
+Prepared by: Ranjitha
+
+Summary
+I’ve successfully completed the manual testing for the login feature of https://qbank.accelq.com/. 
+The tests were performed on several browsers, including Chrome, Firefox, and Safari, and on both desktop and mobile devices. 
+During this testing process, I focused on both functionality and security aspects to make sure the login feature is robust and secure for users.
+
+Total Number of Test Cases: 6
+
+Passed: 6
+Failed: 0
+Blocked: 0
+
+Key Findings
+
+All test cases were executed successfully without any issues.
+No critical bugs or defects were found during the testing phase.
+The system performed well when handling valid and invalid inputs.
+SQL Injection tests showed that the application is secure and protected from common attacks.
+The UI elements are well-aligned, and the system responded properly across different browsers and screen sizes.
+
+Conclusion
+
+The login functionality is working perfectly, and no significant issues were found during the testing process. 
+I tested various scenarios including valid and invalid logins, empty field validation, error handling, 
+and even security testing with SQL injection, and everything passed without any critical issues. 
+The login feature seems secure and behaves as expected across multiple devices and browsers. 
+Therefore, I would consider this functionality ready for production.
+

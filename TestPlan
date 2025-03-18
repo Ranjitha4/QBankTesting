@@ -1,0 +1,50 @@
+1. Introduction
+I have put this test plan together to explain how we’re going to approach testing the login page on https://qbank.accelq.com/ 
+It's a simple but crucial part of the application, and we need to make sure it's working flawlessly for all users.
+
+2. Test Objectives
+
+Make sure that users can log in with valid credentials.
+Ensure the system prevents login with incorrect usernames or passwords.
+Check that users see a clear error message when something goes wrong.
+Test the login UI and check if everything looks good on desktop and mobile.
+
+3. Scope
+
+What we will test:
+
+Logging in with valid credentials.
+Logging in with invalid credentials (wrong username/password).
+What happens if a user leaves the username or password blank.
+Error messages for invalid inputs.
+Ensuring passwords are hidden as they should be.
+Simple security checks, like trying to break in with an SQL injection.
+
+What we won’t test:
+
+Backend/database logic.
+Anything not directly related to logging in.
+
+4. Test Approach
+We will be doing manual testing, which means we will actually go through the login process step-by-step. 
+We will test how the form behaves when we enter valid and invalid data. 
+Also, we’ll be testing the UI to see if it looks good on both desktop and mobile versions.
+
+5. Resources
+
+Testers: Ranjitha
+Tools: JIRA for reporting bugs, Word/Excel/Google Docs for documenting results.
+Browsers: Chrome, Firefox, Safari, Edge.
+Devices: Desktop, Android, iOS.
+
+6. Schedule
+
+Test Start Date: March 15th , 2025
+Test End Date: March 17th, 2025
+
+7. Deliverables
+
+Test Case Document
+Test Execution Logs
+Bug Reports
+Final Test Report
