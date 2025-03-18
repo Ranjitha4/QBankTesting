@@ -103,7 +103,7 @@ The **qBank login feature** has been tested thoroughly and passed all the necess
 
 1. **Clone this repository** to your local machine:
 ```bash
-git clone * input my project link here *
+git clone [* input my project link here *](https://github.com/Ranjitha4/QBankTesting.git)
 ```
 
 2. **Install necessary testing tools** (e.g., browser drivers for Selenium, JIRA for bug tracking, etc.)
